@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,91 +12,134 @@
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Pokémon | Filmes e Séries</title>
 </head>
+
 <body>
+    <!--Navegação-->
     <header>
-        <div class="container">
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="img/pokemon-logo.png" alt="pokemon logo">
-            </a>
-           <!--Menu esquerdo-->
-            <nav>
-                <a href="index.html">Início</a>
-                <a href="#">Série</a>
-                <a href="#">Filmes</a>
-                <a href="#">Extras</a>
-                <a href="#">Minha Lista</a>
-            </nav>
-            <!--menu direito-->
-            <nav>
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#">Infantil</a>
-                <a href="#"><i class="fas fa-gift"></i></a>
-                <a href="#"><i class="fas fa-bell"></i></a>
+        <div class="center">
+            <div class="header-left">
+                <a href="index.html"><img src="img/pokemon-logo1.png" alt="Logo pokemon"></a>
+                <div class="menu-header">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#">Série</a></li>
+                        <li><a href="#">Filmes</a></li>
+                        <li><a href="#">Adicionados Recentemente</a></li>
+                        <li><a href="#">Minha Lista</a></li>
+                    </ul>
+                </div><!--menu-header-->
+            </div><!--header-left-->
+            
+            <div class="header-right">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                </div><!--search-->
+                <a href="">INFANTIL</a>
+                <i class="fas fa-gift"></i>
+                <div class="notifications">
+                    <div class="circle-notifications">
+                        <span>7</span>
+                    </div><!--circle-notifications-->
+                    <i class="fas fa-bell"></i>
+                </div><!--notifications-->
                 <div class="user">
                     <img src="img/logo-user-pikachu.png">
-                    <i class="fas fa-sort-down"></i>    
+                    <i class="fas fa-sort-down"></i>
                 </div>
-            </nav>
-        </div>
-    </header>
+            </div><!--header-right-->
 
-    <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
-                <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
-                </div>
+            <div class="clear"></div>
+        </div><!--Center-->
+    </header>
+    
+    <section class="destaque">
+        
+        <div class="texto-destaque">
+            <h2><img src="img/banner-titulo.png"></h2>
+            <p>Ash, Misty e Brock recebem um convide vindo de um treinador misterioso.<br>
+                Esse treinador é na verdade Mewtwo, um poderoso Pokémon clonado do lendário<br>
+                Mew. Mewtwo planeja destruir o mundo e Ash, Pikachu e seus amigos precisam<br>
+                prevenir essa catástrofe.</p>
+            <br>
+            <button role="button" class="botao">
+                <i class="fas fa-play"></i>
+                ASSISTIR
+            </button>
+            <button role="button" class="botao">
+                <i class="fas fa-plus"></i>
+                MINHA LISTA
+            </button>
+            <button role="button" class="botao">
+                <i class="fas fa-info-circle"></i>
+                MAIS INFORMAÇÕES
+            </button>
+        </div><!--texto.destaque-->
+    </section><!--destaque-->
+                    
+    <!--categorias-->
+    <div class="container">
+        <div class="carrosel-filmes">
+        
+        <h4>Séries</h4>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/temp1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/temp10.jpg" alt="" srcset="">
             </div>
         </div>
-    </main>
-
+    </div>
     <div class="carrosel-filmes">
+        <h4>Filmes</h4>
         <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
-                </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme6.jpg" alt="" srcset="">
+            </div>
+
+        </div>
         </div>
     </div>
+
 
 
 
@@ -103,8 +147,10 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
- 
 
- 
 </body>
+<footer>
+    <p>Marcos Ismayle &copy 2022</p>
+</footer>
+
 </html>

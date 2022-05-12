@@ -1,5 +1,5 @@
 @media screen and (max-width:700px){
-    header .container{
+    header{
     display: flex;
     flex-direction: column;
     }
@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-width:1000px){
-    .descricao{
+    .texto-destaque{
         width: 50%;
     }
 }
